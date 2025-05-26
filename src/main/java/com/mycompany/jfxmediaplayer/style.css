@@ -1,0 +1,165 @@
+/* Style untuk seluruh aplikasi */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-background-color: #2a2a2a;
+    -fx-font-size: 13px;
+}
+
+/* Style untuk BorderPane utama */
+.main-pane {
+    -fx-background-color: #2a2a2a;
+}
+
+/* Style untuk area media */
+.media-pane {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #3c3c3c;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+/* Style untuk panel kontrol */
+.control-pane {
+    -fx-background-color: #2a2a2a;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+/* Style untuk label judul */
+.title-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #e5e5e5;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+    -fx-background-color: #3c3c3c;
+    -fx-background-radius: 5px;
+}
+
+/* Style untuk box kontrol */
+.controls-box {
+    -fx-background-color: #3c3c3c;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+/* Style untuk tombol kontrol */
+.control-button {
+    -fx-background-color: #4e4e4e;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-min-width: 40px;
+    -fx-min-height: 30px;
+    -fx-background-radius: 20px;
+    -fx-padding: 5px 10px;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-background-color: #5e5e5e;
+}
+
+.control-button:pressed {
+    -fx-background-color: #6e6e6e;
+}
+
+/* Styling khusus untuk tombol play */
+.play-button {
+    -fx-background-color: #6a994e;
+}
+
+.play-button:hover {
+    -fx-background-color: #7ab75c;
+}
+
+/* Style untuk tombol open */
+.open-button {
+    -fx-background-color: #3a6ea5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-min-width: 80px;
+}
+
+.open-button:hover {
+    -fx-background-color: #4a7eb5;
+}
+
+/* Style untuk slider waktu */
+.time-slider {
+    -fx-control-inner-background: #3c3c3c;
+    -fx-accent: #3a6ea5;
+}
+
+.time-slider .thumb {
+    -fx-background-color: #e0e0e0;
+}
+
+.time-slider .track {
+    -fx-background-color: #4e4e4e;
+}
+
+/* Style untuk slider volume */
+.volume-slider {
+    -fx-control-inner-background: #3c3c3c;
+    -fx-accent: #3a6ea5;
+}
+
+.volume-slider .thumb {
+    -fx-background-color: #e0e0e0;
+}
+
+/* Style untuk label waktu */
+.time-label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 12px;
+    -fx-padding: 0 5px;
+}
+
+.volume-label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 12px;
+}
+
+/* Style untuk panel playlist */
+.playlist-pane {
+    -fx-background-color: #2a2a2a;
+    -fx-border-color: #3c3c3c;
+    -fx-border-width: 0 0 0 1;
+}
+
+/* Style untuk label playlist */
+.playlist-label {
+    -fx-background-color: #3a6ea5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+/* Style untuk ListView playlist */
+.playlist-view {
+    -fx-background-color: #2c2c2c;
+    -fx-control-inner-background: #2c2c2c;
+    -fx-border-color: #3c3c3c;
+    -fx-border-radius: 3px;
+}
+
+.playlist-view .list-cell {
+    -fx-text-fill: #e0e0e0;
+    -fx-background-color: #2c2c2c;
+    -fx-padding: 5px;
+}
+
+.playlist-view .list-cell:selected {
+    -fx-background-color: #3a6ea5;
+}
+
+.playlist-view .list-cell:hover {
+    -fx-background-color: #3c3c3c;
+}
+
+/* Efek hover untuk track slider */
+.slider:hover .track {
+    -fx-background-color: #5e5e5e;
+}
